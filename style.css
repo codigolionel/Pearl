@@ -5,10 +5,15 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #18181b;
+ background-image: url('home-club-background.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   color: white;
   overflow-x: hidden;
 }
+
 
 
 /* ============================================================
@@ -171,9 +176,12 @@ nav {
 .hero-section {
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
-  background-color: #18181b;
+  background-image: url('home-club-background.jpg');
+  background-size: cover;
+  background-position:center ;
+  background-repeat: no-repeat;
 }
+
 
 .hero-content {
   position: relative;
